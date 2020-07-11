@@ -3,7 +3,7 @@ from app.models import Movie
 
 class MovieTest(unittest.TestCase):
     '''
-    Test Class to test the behaviour of the Movie class
+    Test Class to test the behavior of the Movie class
     '''
 
     def setUp(self):
@@ -14,5 +14,3 @@ class MovieTest(unittest.TestCase):
 
     def test_instance(self):
         self.assertTrue(isinstance(self.new_movie,Movie))
-
-
